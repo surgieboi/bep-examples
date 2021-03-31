@@ -79,6 +79,7 @@ Starter kits and examples of how to get started with BEP and different integrati
 
 - [NextJS](https://github.com/dolapay/bep-examples/tree/main/with-next)
 - [GraphCMS with NextJS](https://github.com/dolapay/bep-examples/tree/main/with-graphcms-next)
+- [Gatsby](https://github.com/dolapay/bep-examples/tree/main/with-gatsby)
 
 ## Setup
 
@@ -273,11 +274,6 @@ interface IDolapay {
 
 window.Dolapay:IDolapay
 ```
-
-- `type`: This property refers to the initialization method of the BEP instance.
-
-  - `basic`: means the BEP instance was created as a `JavaScript SDK` instance.
-  - `custom`: means the BEP instance was created as an `Basic Installation` instance.
 
 - `orderCompleted`: This property exposes the state of the current order.
 
