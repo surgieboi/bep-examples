@@ -1,0 +1,29 @@
+{
+	"name": "with-graphcms-gatsby",
+	"version": "1.0.0",
+	"private": true,
+	"description": "with-graphcms-gatsby",
+	"author": "Adeniyi Adeyokunnu",
+	"keywords": [
+		"gatsby",
+		"graphcms",
+		"Dola",
+		"BEP"
+	],
+	"scripts": {
+		"develop": "gatsby develop",
+		"start": "gatsby develop",
+		"build": "gatsby build",
+		"serve": "gatsby serve",
+		"clean": "gatsby clean"
+	},
+	"dependencies": {
+		"gatsby": "^3.1.2",
+		"gatsby-source-graphcms": "2.5.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
+	},
+	"devDependencies": {
+		"gatsby-plugin-image": "^1.2.0"
+	}
+}
