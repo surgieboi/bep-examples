@@ -93,11 +93,10 @@ Demo includes:
 Starter kits and examples of how to get started with BEP and different integrations can be found as subdirectories.
 
 - [Airtable](https://www.airtable.agency/dola-fiy-one-click-e-commerce-store)
-- [NextJS](https://github.com/dolapay/bep-examples/tree/main/with-next)
-- [GraphCMS with NextJS](https://github.com/dolapay/bep-examples/tree/main/with-graphcms-next)
 - [Gatsby](https://github.com/dolapay/bep-examples/tree/main/with-gatsby)
-
-- [GraphCMS with Gatsby](https://github.com/dolapay/bep-examples/tree/main/with-graphcms-gatsby)
+- [Gatsby + GraphCMS](https://github.com/dolapay/bep-examples/tree/main/with-graphcms-gatsby)
+- [NextJS](https://github.com/dolapay/bep-examples/tree/main/with-next)
+- [NextJS + GraphCMS](https://github.com/dolapay/bep-examples/tree/main/with-graphcms-next)
 
 ## Setup
 
