@@ -17,7 +17,7 @@ Product Schemas are required to include the following fields as they are require
 - `description`
 - `weight`
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-graphcms-next&env=NEXT_PUBLIC_MERCHANT_ID&envDescription=Your%20Merchant%20ID&envLink=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-next%23getting-started)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-graphcms-gatsby&env=NEXT_PUBLIC_MERCHANT_ID&envDescription=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-graphcms-gatsby%23getting-started)
 
 ## Download Manually
 
@@ -26,11 +26,13 @@ Product Schemas are required to include the following fields as they are require
 - Clone:
 
   ```bash
-  npx degit dolapay/bep-examples/with-graphcms-next#main graphcms-bep-nextjs
+  npx degit dolapay/bep-examples/with-graphcms-next#main graphcms-bep-graphcms
   ```
 
-- Run command `cd graphcms-bep-nextjs`
-- Create a `.env.local` file. then paste your
+- Run command `cd graphcms-bep-graphcms`
+- Create a `.env.dvelopment` file. then paste your
+
   - `MERCHANT_ID` into the `NEXT_PUBLIC_MERCHANT_ID` field.
+
 - Run command `npm install`
-- Start your server `npm run dev`
+- Start your server `npm run develop`

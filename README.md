@@ -88,7 +88,6 @@ Demo includes:
 
 [View Demo](https://www.airtable.agency/dola-fiy-one-click-e-commerce-store)
 
-
 ## Examples
 
 Starter kits and examples of how to get started with BEP and different integrations can be found as subdirectories.
@@ -97,6 +96,8 @@ Starter kits and examples of how to get started with BEP and different integrati
 - [NextJS](https://github.com/dolapay/bep-examples/tree/main/with-next)
 - [GraphCMS with NextJS](https://github.com/dolapay/bep-examples/tree/main/with-graphcms-next)
 - [Gatsby](https://github.com/dolapay/bep-examples/tree/main/with-gatsby)
+
+- [GraphCMS with Gatsby](https://github.com/dolapay/bep-examples/tree/main/with-graphcms-gatsby)
 
 ## Setup
 
