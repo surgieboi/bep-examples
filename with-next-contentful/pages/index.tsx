@@ -1,29 +1,45 @@
+import { request } from "graphql-request";
 import Head from "next/head";
 import { DolaWindow, Cart, IProduct } from "../interface";
 
-const contentfulEntryEndpoint = `https://cdn.contentful.com/spaces/jq8e62senjyb/environments/master/entries/75rpfo1pttB6Z9JwzcMNz2?access_token=V2UfiI_2gGDSGtzcbXpJlzeI_G5zHTSoWIeYt_Z7J_8`;
-
 export async function getStaticProps() {
-	return fetch(contentfulEntryEndpoint)
-		.then((resp) => resp.json())
-		.then(async (data) => {
-			const imageURL = await fetchAsset(data.fields.image[0].sys.id);
+	const query = `
+		query {
+			productCollection {
+				items {
+					title
+					id
+					description {
+						json
+					}
+					price
+					weight
+					quantity
+					imageCollection {
+						items {
+							url
+						}
+					}
+					sku
+					willBeShipped
+				}
+			}
+		}
+	`;
 
-			const product = {
-				...data.fields,
-				image: `https:${imageURL.fields.file.url}`,
-				description: data.fields.description.content[0].content[0].value,
-			};
-			return { props: { product }, revalidate: 1 };
-		});
-}
+	const {
+		productCollection: { items: products },
+	}: any = await request(
+		`https://graphql.contentful.com/content/v1/spaces/jq8e62senjyb/environments/master?access_token=${process.env.CONTENTFUL_ACCESS_TOKEN}`,
+		query
+	);
 
-async function fetchAsset(assetId) {
-	const contentfulAssetEndpoint = `https://cdn.contentful.com/spaces/jq8e62senjyb/environments/master/assets/${assetId}?access_token=V2UfiI_2gGDSGtzcbXpJlzeI_G5zHTSoWIeYt_Z7J_8`;
-
-	return await fetch(contentfulAssetEndpoint)
-		.then((resp) => resp.json())
-		.then((data) => data);
+	const product = {
+		...products[0],
+		image: `https:${products[0].imageCollection.items[0].url}`,
+		description: products[0].description.json.content[0].content[0].value,
+	};
+	return { props: { product }, revalidate: 1 };
 }
 
 interface IndexProps {
