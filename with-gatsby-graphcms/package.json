@@ -1,8 +1,8 @@
 {
-	"name": "with-graphcms-gatsby",
+	"name": "with-gatsby-graphcms",
 	"version": "1.0.0",
 	"private": true,
-	"description": "with-graphcms-gatsby",
+	"description": "with-gatsby-graphcms",
 	"author": "Adeniyi Adeyokunnu",
 	"keywords": [
 		"gatsby",

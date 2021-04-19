@@ -24,10 +24,10 @@ Product Schemas are required to include the following fields as they are require
 - Clone:
 
   ```bash
-  npx degit dolapay/bep-examples/with-nuxt#main nuxtjs-graphcms-example
+  npx degit dolapay/bep-examples/with-nuxt-graphcms#main with-nuxt-graphcms
   ```
 
-- Run command `cd nuxtjs-graphcms-example`
+- Run command `cd with-nuxt-graphcms`
 - Create a `.env` file and paste your `MERCHANT_ID` into the `NUXT_ENV_MERCHANT_ID` field
 - Run command `npm install`
 - Start your server `npm run dev`

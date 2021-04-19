@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		title: "with-graphcms-gatsby",
+		title: "with-gatsby-graphcms",
 	},
 	plugins: [
 		{

@@ -11,10 +11,10 @@
 - Clone:
 
   ```shell
-  npx degit dolapay/bep-examples/with-gatsby#main gatsby-example
+  npx degit dolapay/bep-examples/with-gatsby#main with-gatsby
   ```
 
-- Run command `cd nextjs-example`
+- Run command `cd with-gatsby`
 - Create a `.env.development` file and paste your `MERCHANT_ID` into the `NEXT_PUBLIC_MERCHANT_ID` field
 - Run command `npm install`
 - Start your server `npm run develop`

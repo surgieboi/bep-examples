@@ -33,10 +33,10 @@ For the purposes of this example a sample product's variables are used, Replace 
 - Clone:
 
   ```bash
-  npx degit dolapay/bep-examples/with-next-contentful#main bep-next-contentful
+  npx degit dolapay/bep-examples/with-gatsby-contentful#main with-gatsby-contentful
   ```
 
-- Run command `cd graphcms-bep-graphcms`
+- Run command `cd with-gatsby-contentful`
 - Create a `.env.dvelopment` file. then paste your
   - `MERCHANT_ID` into the `NEXT_PUBLIC_MERCHANT_ID` field.
   - Your `CONTENTFUL_ACCESS_TOKEN`.
