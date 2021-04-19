@@ -2,7 +2,7 @@ import { GraphQLClient } from "graphql-request";
 import Head from "next/head";
 import { DolaWindow, Cart, IProduct } from "../interface";
 
-const GraphCMSEndpoint = "https://api-us-east-1.graphcms.com/v2/ckmcamaj12r5p01z2gqvg5psj/master";
+const GraphCMSEndpoint = process.env.NEXT_PUBLIC_GRAPHCMS_API;
 export async function getStaticProps() {
 	const graphcms = new GraphQLClient(GraphCMSEndpoint);
 	const { product } = await graphcms.request(
