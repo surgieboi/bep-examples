@@ -18,7 +18,8 @@
 		"clean": "gatsby clean"
 	},
 	"dependencies": {
-		"gatsby": "^3.1.2",
+		"dotenv": "^8.2.0",
+		"gatsby": "^3.3.1",
 		"gatsby-source-graphcms": "2.5.1",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1"

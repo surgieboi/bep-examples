@@ -14,10 +14,13 @@ Product Schemas are required to include the following fields as they are require
 - `quantity`
 - `sku`
 - `image`
-- `description`
 - `weight`
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-gatsby-graphcms&env=NEXT_PUBLIC_MERCHANT_ID&envDescription=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-gatsby-graphcms%23getting-started)
+To access your content outside of contentful, you'll need the following env variables.
+
+- Your `GRAPHCMS_API` endpoint
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-gatsby-graphcms&env=MERCHANT_ID,GRAPHCMS_API&envDescription=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-gatsby-graphcms%23getting-started)
 
 ## Download Manually
 
@@ -30,9 +33,8 @@ Product Schemas are required to include the following fields as they are require
   ```
 
 - Run command `cd bep-gatsby-graphcms`
-- Create a `.env.dvelopment` file. then paste your
-
-  - `MERCHANT_ID` into the `NEXT_PUBLIC_MERCHANT_ID` field.
-
+- Create a `.env` file. then paste your
+  - `MERCHANT_ID` into the `MERCHANT_ID` field.
+  - Your graphcms endpoint as `GRAPHCMS_API`.
 - Run command `npm install`
 - Start your server `npm run develop`

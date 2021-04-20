@@ -59,9 +59,6 @@ const IndexPage = ({ data: { product } }) => {
 export const pageQuery = graphql`
 	query IndexPageQuery {
 		product: graphCmsProduct {
-			description {
-				text
-			}
 			id
 			price
 			image {

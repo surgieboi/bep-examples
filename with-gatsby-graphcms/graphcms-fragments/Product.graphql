@@ -35,7 +35,6 @@ fragment Product on Product {
       text
     }
   }
-  identifier
   quantity
   price
   weight

@@ -1,25 +1,22 @@
 {
-  "name": "with-gatsby",
-  "version": "1.0.0",
-  "private": true,
-  "description": "with-gatsby",
-  "author": "Adeniyi Adeyokunnu",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "gatsby": "^3.1.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  },
-  "devDependencies": {
-    "react-helmet": "^6.1.0"
-  }
+	"name": "with-gatsby",
+	"version": "1.0.0",
+	"private": true,
+	"description": "with-gatsby",
+	"author": "Adeniyi Adeyokunnu",
+	"keywords": [
+		"gatsby"
+	],
+	"scripts": {
+		"develop": "gatsby develop",
+		"start": "gatsby develop",
+		"build": "gatsby build",
+		"serve": "gatsby serve",
+		"clean": "gatsby clean"
+	},
+	"dependencies": {
+		"gatsby": "^3.3.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1"
+	}
 }
