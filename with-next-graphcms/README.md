@@ -18,7 +18,7 @@ Product Schemas are required to include the following fields as they are require
 
 To access your content you'll need your `GRAPHCMS_API_URL`
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-next-graphcms&env=NEXT_PUBLIC_MERCHANT_ID,NEXT_PUBLIC_GRAPHCMS_API&envDescription=Your%20Merchant%20ID&envLink=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-next-graphcms%23getting-started)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fsurgieboi%2Fbep-examples%2Ftree%2Fmain%2Fwith-next-graphcms&env=NEXT_PUBLIC_MERCHANT_ID,NEXT_PUBLIC_GRAPHCMS_API&envDescription=Your%20Merchant%20ID&envLink=https%3A%2F%2Fgithub.com%2Fsurgieboi%2Fbep-examples%2Ftree%2Fmain%2Fwith-next-graphcms%23getting-started)
 
 ## Download Manually
 

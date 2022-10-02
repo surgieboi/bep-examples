@@ -20,7 +20,7 @@ To access your content outside of contentful, you'll need the following env vari
 
 - Your `GRAPHCMS_API` endpoint
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-gatsby-graphcms&env=MERCHANT_ID,GRAPHCMS_API&envDescription=https%3A%2F%2Fgithub.com%2Fdolapay%2Fbep-examples%2Ftree%2Fmain%2Fwith-gatsby-graphcms%23getting-started)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fsurgieboi%2Fbep-examples%2Ftree%2Fmain%2Fwith-gatsby-graphcms&env=MERCHANT_ID,GRAPHCMS_API&envDescription=https%3A%2F%2Fgithub.com%2Fsurgieboi%2Fbep-examples%2Ftree%2Fmain%2Fwith-gatsby-graphcms%23getting-started)
 
 ## Download Manually
 
